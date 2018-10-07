@@ -13,7 +13,7 @@ A config file called .tashrc is also installed, but make sure the program and .t
     
 ## Usage
     
-Look into the [wiki](www.github.com/Ninjacop/tash/wiki) for acceptable commands, or type `help` in the shell
+Look into the [wiki](https://github.com/Ninjacop/tash/wiki) for acceptable commands, or type `help` in the shell
     
     
 ## Options
@@ -22,7 +22,7 @@ No command line arguments are taken when the shell is first loaded
       
 ## Examples  
       
-See [wiki](www.github.com/Ninjacop/tash/wiki) for code examples
+See [wiki](https://github.com/Ninjacop/tash/wiki) for code examples
       
 ### Bugs  
       
