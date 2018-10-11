@@ -13,6 +13,8 @@
 #include "commands/files/rmfold.c"
 
 #include "commands/language/comments.c"
+#include "commands/language/add-sub.c"
+#include "commands/language/mult-div.c"
 
 #include "commands/system/clear.c"
 #include "commands/system/delay.c"
@@ -25,6 +27,10 @@ int tash_help(char **args);
 
 // List of all accepted commands
 char *builtin_str[] = {
+    "mult",
+    "div",
+    "add",
+    "sub",
     "!",
     "fsize",
     "mkfold",
@@ -44,6 +50,10 @@ char *builtin_str[] = {
 // List of all the corresponding functions 
 // to those commands
 int (*builtin_func[]) (char **) = {
+    &tash_mult,
+    &tash_div,
+    &tash_add,
+    &tash_sub,
     &tash_comments,
     &tash_fsize,
     &tash_mkfold,

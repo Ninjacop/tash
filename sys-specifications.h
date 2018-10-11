@@ -17,4 +17,6 @@
 #define TASH_TOK_DELIM " \t\r\n\a"
 
 // Define the current TASH version
-#define VERSION_NO "0.1.0"
+#define VERSION_NO "0.1.1"
+
+

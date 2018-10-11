@@ -1,6 +1,11 @@
 # Change Log
-    All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).  
+All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).  
     
-    ## 0.1.0 
-    ### Added
-    - Repository 
+## 0.1.1
+### Added
+- add, sub, mult and div (Math functions)
+
+
+## 0.1.0 
+### Added
+- Repository 
